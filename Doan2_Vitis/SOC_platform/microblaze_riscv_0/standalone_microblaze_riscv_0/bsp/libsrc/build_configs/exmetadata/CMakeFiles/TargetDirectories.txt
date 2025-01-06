@@ -1,0 +1,6 @@
+D:/Doan2_Vitis/SOC_platform/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/gpio_example.dir
+D:/Doan2_Vitis/SOC_platform/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/tmrctr_example.dir
+D:/Doan2_Vitis/SOC_platform/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/uartlite_example.dir
+D:/Doan2_Vitis/SOC_platform/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/intc_example.dir
+D:/Doan2_Vitis/SOC_platform/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/edit_cache.dir
+D:/Doan2_Vitis/SOC_platform/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/rebuild_cache.dir

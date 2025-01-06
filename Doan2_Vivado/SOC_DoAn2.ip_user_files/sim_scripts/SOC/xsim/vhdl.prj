@@ -1,0 +1,12 @@
+vhdl xil_defaultlib  \
+"../../../bd/SOC/ip/SOC_microblaze_riscv_0_0/sim/SOC_microblaze_riscv_0_0.vhd" \
+"../../../bd/SOC/ip/SOC_axi_gpio_0_0/sim/SOC_axi_gpio_0_0.vhd" \
+"../../../bd/SOC/ip/SOC_axi_uartlite_0_0/sim/SOC_axi_uartlite_0_0.vhd" \
+"../../../bd/SOC/ip/SOC_microblaze_riscv_0_axi_intc_0/sim/SOC_microblaze_riscv_0_axi_intc_0.vhd" \
+"../../../bd/SOC/ip/SOC_mdm_1_0/sim/SOC_mdm_1_0.vhd" \
+"../../../bd/SOC/ip/SOC_rst_mig_7series_0_100M_0/sim/SOC_rst_mig_7series_0_100M_0.vhd" \
+"../../../bd/SOC/ip/SOC_rst_mig_7series_0_200M_0/sim/SOC_rst_mig_7series_0_200M_0.vhd" \
+"../../../bd/SOC/ip/SOC_axi_timer_0_0/sim/SOC_axi_timer_0_0.vhd" \
+
+# Do not sort compile order
+nosort

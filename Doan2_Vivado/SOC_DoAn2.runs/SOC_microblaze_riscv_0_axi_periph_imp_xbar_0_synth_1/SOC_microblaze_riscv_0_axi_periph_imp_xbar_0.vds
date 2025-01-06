@@ -1,0 +1,588 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Jan  3 11:23:11 2025
+# Process ID         : 13376
+# Current directory  : D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0_synth_1
+# Command line       : vivado.exe -log SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.tcl
+# Log file           : D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0_synth_1/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.vds
+# Journal file       : D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0_synth_1\vivado.jou
+# Running On         : LAPTOP-SEGSJK94
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8419 MB
+# Swap memory        : 11811 MB
+# Total Virtual      : 20230 MB
+# Available Virtual  : 4168 MB
+#-----------------------------------------------------------
+source SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.tcl -notrace
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: SOC_microblaze_riscv_0_axi_periph_imp_xbar_0
+Command: synth_design -top SOC_microblaze_riscv_0_axi_periph_imp_xbar_0 -part xc7vx485tffg1761-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-86] Your Synthesis license expires in 4 day(s)
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 17148
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 1356.426 ; gain = 465.102
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:152]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:154]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:155]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:157]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:158]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:160]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:238]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:240]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:241]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:243]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:244]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:246]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:247]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:249]
+INFO: [Synth 8-6157] synthesizing module 'SOC_microblaze_riscv_0_axi_periph_imp_xbar_0' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_axi_crossbar' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4871]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_crossbar' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:2232]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_si_transactor' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_addr_decoder' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_carry_and' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_carry_and' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized0' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized0' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized1' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized1' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized2' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized2' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized3' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized3' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_addr_decoder' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_ndeep_srl' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6157] synthesizing module 'SRLC32E' [D:/Vivado2024.2/Vivado/2024.2/scripts/rt/data/unisim_comp.v:149195]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (0#1) [D:/Vivado2024.2/Vivado/2024.2/scripts/rt/data/unisim_comp.v:149195]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_ndeep_srl' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6157] synthesizing module 'MUXF7' [D:/Vivado2024.2/Vivado/2024.2/scripts/rt/data/unisim_comp.v:90866]
+INFO: [Synth 8-6155] done synthesizing module 'MUXF7' (0#1) [D:/Vivado2024.2/Vivado/2024.2/scripts/rt/data/unisim_comp.v:90866]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_si_transactor' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_si_transactor__parameterized0' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized0' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized0' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_si_transactor__parameterized0' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_splitter' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4451]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_splitter' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4451]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_wdata_router' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_wdata_router' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_si_transactor__parameterized1' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo__parameterized0' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo__parameterized0' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_si_transactor__parameterized1' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_si_transactor__parameterized2' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo__parameterized1' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_ndeep_srl__parameterized0' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_nto1_mux' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2872]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_nto1_mux' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2872]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_ndeep_srl__parameterized0' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo__parameterized1' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_si_transactor__parameterized2' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_wdata_router__parameterized0' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized0' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_ndeep_srl__parameterized1' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_ndeep_srl__parameterized1' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized0' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_wdata_router__parameterized0' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_si_transactor__parameterized3' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_si_transactor__parameterized3' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_si_transactor__parameterized4' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_si_transactor__parameterized4' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_si_transactor__parameterized5' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_si_transactor__parameterized5' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_addr_decoder__parameterized0' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_addr_decoder__parameterized0' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_addr_decoder__parameterized1' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_addr_decoder__parameterized1' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo__parameterized2' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo__parameterized2' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_wdata_mux' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized1' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized1' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized1' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized1' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_wdata_mux' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axi_register_slice' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized0' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized0' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized1' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized1' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized2' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized2' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axi_register_slice' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_33_axi_register_slice' is unconnected for instance 'reg_slice_mi' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_33_axi_register_slice' has 93 connections declared, but only 92 given [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_33_axi_register_slice' is unconnected for instance 'reg_slice_mi' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_33_axi_register_slice' has 93 connections declared, but only 92 given [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_33_axi_register_slice' is unconnected for instance 'reg_slice_mi' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_33_axi_register_slice' has 93 connections declared, but only 92 given [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo__parameterized3' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_ndeep_srl__parameterized2' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_ndeep_srl__parameterized2' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo__parameterized3' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_wdata_mux__parameterized0' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized2' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized2' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_wdata_mux__parameterized0' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_33_axi_register_slice' is unconnected for instance 'reg_slice_mi' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_33_axi_register_slice' has 93 connections declared, but only 92 given [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_33_axi_register_slice' is unconnected for instance 'reg_slice_mi' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_33_axi_register_slice' has 93 connections declared, but only 92 given [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo__parameterized4' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_axic_srl_fifo__parameterized4' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_wdata_mux__parameterized1' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized3' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized3' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_wdata_mux__parameterized1' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_33_axi_register_slice' is unconnected for instance 'reg_slice_mi' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_33_axi_register_slice' has 93 connections declared, but only 92 given [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_decerr_slave' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3493]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3626]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_decerr_slave' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:3493]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_34_addr_arbiter' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:420]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized2' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized2' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized3' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized3' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_addr_arbiter' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:420]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_crossbar' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:2232]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_34_axi_crossbar' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4871]
+INFO: [Synth 8-6155] done synthesizing module 'SOC_microblaze_riscv_0_axi_periph_imp_xbar_0' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/synth/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+WARNING: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_issue.gen_debug_r_single_issue.debug_r_beat_cnt_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4078]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_issue.gen_debug_r_single_issue.debug_r_beat_cnt_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4078]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_thread.gen_debug_r_single_thread.debug_r_beat_cnt_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4184]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_thread.active_id_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4142]
+WARNING: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+WARNING: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_thread.gen_debug_r_single_thread.debug_r_beat_cnt_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4184]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_thread.active_id_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:4142]
+WARNING: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+WARNING: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+WARNING: [Synth 8-6014] Unused sequential element s_ready_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:1034]
+WARNING: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+WARNING: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+WARNING: [Synth 8-6014] Unused sequential element s_ready_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:1034]
+WARNING: [Synth 8-6014] Unused sequential element s_ready_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/65ce/hdl/axi_data_fifo_v2_1_vl_rfs.v:1034]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[0].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[1].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[2].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[3].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[4].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[5].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a7e3/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-7129] Port ACLK in module axi_register_slice_v2_1_33_axic_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axi_register_slice_v2_1_33_axic_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axi_register_slice_v2_1_33_axic_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axi_register_slice_v2_1_33_axic_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[1] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk2x in module axi_register_slice_v2_1_33_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[1] in module axi_crossbar_v2_1_34_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[0] in module axi_crossbar_v2_1_34_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_34_si_transactor__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_34_si_transactor__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_34_si_transactor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_34_si_transactor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_34_si_transactor__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_34_si_transactor__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SEL_ONEHOT[1] in module generic_baseblocks_v2_1_2_nto1_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SEL_ONEHOT[0] in module generic_baseblocks_v2_1_2_nto1_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_34_si_transactor__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_34_si_transactor__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[7] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[6] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[5] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[4] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[3] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[2] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[1] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[0] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[95] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[94] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[93] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[92] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[91] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[90] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[89] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[88] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[87] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[86] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[85] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[84] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[83] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[82] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[81] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[80] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[79] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[78] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[77] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[76] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[75] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[74] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[73] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[72] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[71] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[70] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[69] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[68] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[67] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[66] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[65] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[64] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[23] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[22] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[21] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[20] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[19] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[18] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[17] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[16] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWSIZE[8] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWSIZE[7] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWSIZE[6] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWBURST[5] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWBURST[4] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLOCK[5] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLOCK[4] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[11] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[10] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[9] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[8] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[8] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[7] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[6] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWQOS[11] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWQOS[10] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWQOS[9] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWQOS[8] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[2] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWVALID[2] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WID[7] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WID[6] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WID[5] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WID[4] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WID[3] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WID[2] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WID[1] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WID[0] in module axi_crossbar_v2_1_34_crossbar is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:32 . Memory (MB): peak = 1637.996 ; gain = 746.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:32 . Memory (MB): peak = 1637.996 ; gain = 746.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:32 . Memory (MB): peak = 1637.996 ; gain = 746.672
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1637.996 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2090 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1747.859 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.888 . Memory (MB): peak = 1752.691 ; gain = 4.832
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:59 . Memory (MB): peak = 1752.691 ; gain = 861.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1761-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:59 . Memory (MB): peak = 1752.691 ; gain = 861.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:59 . Memory (MB): peak = 1752.691 ; gain = 861.367
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized2'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized3'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_axi.write_cs_reg' in module 'axi_crossbar_v2_1_34_decerr_slave'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                              100 |                               10
+                     ONE |                              010 |                               11
+                     TWO |                              001 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                              100 |                               10
+                     ONE |                              010 |                               11
+                     TWO |                              001 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                              100 |                               10
+                     ONE |                              010 |                               11
+                     TWO |                              001 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                              100 |                               10
+                     ONE |                              010 |                               11
+                     TWO |                              001 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                              100 |                               10
+                     ONE |                              010 |                               11
+                     TWO |                              001 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_32_axic_reg_srl_fifo__parameterized3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            P_WRITE_IDLE |                              001 |                               00
+            P_WRITE_DATA |                              010 |                               01
+            P_WRITE_RESP |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_axi.write_cs_reg' using encoding 'one-hot' in module 'axi_crossbar_v2_1_34_decerr_slave'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:01:02 . Memory (MB): peak = 1752.691 ; gain = 861.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    6 Bit       Adders := 6     
+	   2 Input    5 Bit       Adders := 9     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 3     
+	   2 Input    2 Bit       Adders := 23    
+	   2 Input    1 Bit       Adders := 4     
++---XORs : 
+	   2 Input      1 Bit         XORs := 22    
++---Registers : 
+	              517 Bit    Registers := 12    
+	               65 Bit    Registers := 2     
+	                8 Bit    Registers := 3     
+	                6 Bit    Registers := 11    
+	                5 Bit    Registers := 9     
+	                4 Bit    Registers := 20    
+	                3 Bit    Registers := 9     
+	                2 Bit    Registers := 38    
+	                1 Bit    Registers := 73    
++---Muxes : 
+	   2 Input  518 Bit        Muxes := 4     
+	   2 Input  517 Bit        Muxes := 12    
+	   2 Input   48 Bit        Muxes := 12    
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 14    
+	   2 Input    5 Bit        Muxes := 7     
+	   2 Input    4 Bit        Muxes := 21    
+	   2 Input    3 Bit        Muxes := 35    
+	   3 Input    3 Bit        Muxes := 9     
+	   2 Input    2 Bit        Muxes := 44    
+	   2 Input    1 Bit        Muxes := 194   
+	   3 Input    1 Bit        Muxes := 35    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:01:44 . Memory (MB): peak = 1752.691 ; gain = 861.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:55 ; elapsed = 00:01:59 . Memory (MB): peak = 1791.930 ; gain = 900.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:10 ; elapsed = 00:02:28 . Memory (MB): peak = 1891.121 ; gain = 999.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:23 ; elapsed = 00:02:48 . Memory (MB): peak = 1947.984 ; gain = 1056.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:28 ; elapsed = 00:03:04 . Memory (MB): peak = 2048.668 ; gain = 1157.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:28 ; elapsed = 00:03:04 . Memory (MB): peak = 2048.668 ; gain = 1157.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:30 ; elapsed = 00:03:08 . Memory (MB): peak = 2068.875 ; gain = 1177.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:30 ; elapsed = 00:03:08 . Memory (MB): peak = 2068.875 ; gain = 1177.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:32 ; elapsed = 00:03:11 . Memory (MB): peak = 2068.875 ; gain = 1177.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:32 ; elapsed = 00:03:11 . Memory (MB): peak = 2068.875 ; gain = 1177.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |LUT1    |    22|
+|2     |LUT2    |  1046|
+|3     |LUT3    |  3789|
+|4     |LUT4    |   172|
+|5     |LUT5    |   207|
+|6     |LUT6    |  5297|
+|7     |MUXF7   |  2069|
+|8     |SRLC32E |    24|
+|9     |FDRE    |  5591|
+|10    |FDSE    |    49|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:32 ; elapsed = 00:03:11 . Memory (MB): peak = 2068.875 ; gain = 1177.551
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 684 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:09 ; elapsed = 00:02:56 . Memory (MB): peak = 2068.910 ; gain = 1062.891
+Synthesis Optimization Complete : Time (s): cpu = 00:01:32 ; elapsed = 00:03:12 . Memory (MB): peak = 2068.910 ; gain = 1177.586
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.650 . Memory (MB): peak = 2075.188 ; gain = 0.113
+INFO: [Netlist 29-17] Analyzing 2069 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2108.254 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: ffedbab2
+INFO: [Common 17-83] Releasing license: Synthesis
+152 Infos, 150 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:40 ; elapsed = 00:03:33 . Memory (MB): peak = 2108.254 ; gain = 1718.504
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.105 . Memory (MB): peak = 2108.254 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0_synth_1/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP SOC_microblaze_riscv_0_axi_periph_imp_xbar_0, cache-ID = 7c55f99c1c6f96c2
+INFO: [Coretcl 2-1174] Renamed 94 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 2108.254 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0_synth_1/SOC_microblaze_riscv_0_axi_periph_imp_xbar_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file SOC_microblaze_riscv_0_axi_periph_imp_xbar_0_utilization_synth.rpt -pb SOC_microblaze_riscv_0_axi_periph_imp_xbar_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jan  3 11:27:07 2025...

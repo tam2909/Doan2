@@ -1,0 +1,310 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Jan  3 11:19:07 2025
+# Process ID         : 6020
+# Current directory  : D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1_synth_1
+# Command line       : vivado.exe -log SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1.tcl
+# Log file           : D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1_synth_1/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1.vds
+# Journal file       : D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1_synth_1\vivado.jou
+# Running On         : LAPTOP-SEGSJK94
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8419 MB
+# Swap memory        : 11811 MB
+# Total Virtual      : 20230 MB
+# Available Virtual  : 4391 MB
+#-----------------------------------------------------------
+source SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1.tcl -notrace
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1
+Command: synth_design -top SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1 -part xc7vx485tffg1761-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-86] Your Synthesis license expires in 4 day(s)
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13000
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 1346.414 ; gain = 467.883
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1/synth/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_32_axi_clock_converter' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a4e8/hdl/axi_clock_converter_v2_1_vl_rfs.v:650]
+INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a4e8/hdl/axi_clock_converter_v2_1_vl_rfs.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a4e8/hdl/axi_clock_converter_v2_1_vl_rfs.v:61]
+INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter__parameterized0' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a4e8/hdl/axi_clock_converter_v2_1_vl_rfs.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter__parameterized0' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a4e8/hdl/axi_clock_converter_v2_1_vl_rfs.v:61]
+INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter__parameterized1' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a4e8/hdl/axi_clock_converter_v2_1_vl_rfs.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter__parameterized1' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a4e8/hdl/axi_clock_converter_v2_1_vl_rfs.v:61]
+INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter__parameterized2' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a4e8/hdl/axi_clock_converter_v2_1_vl_rfs.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter__parameterized2' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a4e8/hdl/axi_clock_converter_v2_1_vl_rfs.v:61]
+INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_32_axic_sample_cycle_ratio' [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a4e8/hdl/axi_clock_converter_v2_1_vl_rfs.v:356]
+INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_32_axic_sample_cycle_ratio' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a4e8/hdl/axi_clock_converter_v2_1_vl_rfs.v:356]
+INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_32_axi_clock_converter' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a4e8/hdl/axi_clock_converter_v2_1_vl_rfs.v:650]
+INFO: [Synth 8-6155] done synthesizing module 'SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1' (0#1) [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1/synth/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1.v:53]
+WARNING: [Synth 8-6014] Unused sequential element gen_sync_clock_converter.m_tstorage_r_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a4e8/hdl/axi_clock_converter_v2_1_vl_rfs.v:220]
+WARNING: [Synth 8-6014] Unused sequential element gen_sync_clock_converter.m_tstorage_r_reg was removed.  [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ipshared/a4e8/hdl/axi_clock_converter_v2_1_vl_rfs.v:220]
+WARNING: [Synth 8-7129] Port SAMPLE_CYCLE_EARLY in module axi_clock_converter_v2_1_32_axic_sync_clock_converter__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SAMPLE_CYCLE in module axi_clock_converter_v2_1_32_axic_sync_clock_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SAMPLE_CYCLE_EARLY in module axi_clock_converter_v2_1_32_axic_sync_clock_converter__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SAMPLE_CYCLE in module axi_clock_converter_v2_1_32_axic_sync_clock_converter__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_clock_converter_v2_1_32_axi_clock_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[0] in module axi_clock_converter_v2_1_32_axi_clock_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wuser[0] in module axi_clock_converter_v2_1_32_axi_clock_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_clock_converter_v2_1_32_axi_clock_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[0] in module axi_clock_converter_v2_1_32_axi_clock_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[0] in module axi_clock_converter_v2_1_32_axi_clock_converter is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:27 . Memory (MB): peak = 1582.453 ; gain = 703.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:27 . Memory (MB): peak = 1582.453 ; gain = 703.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:27 . Memory (MB): peak = 1582.453 ; gain = 703.922
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.071 . Memory (MB): peak = 1582.453 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.gen/sources_1/bd/SOC/ip/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1_ooc.xdc] for cell 'inst'
+Parsing XDC File [D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1677.543 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.152 . Memory (MB): peak = 1677.719 ; gain = 0.176
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:43 . Memory (MB): peak = 1677.719 ; gain = 799.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1761-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:44 . Memory (MB): peak = 1677.719 ; gain = 799.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:44 . Memory (MB): peak = 1677.719 ; gain = 799.188
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'gen_sync_clock_converter.state_reg' in module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_sync_clock_converter.state_reg' in module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_sync_clock_converter.state_reg' in module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_sync_clock_converter.state_reg' in module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    INIT |                              001 |                               00
+                    ZERO |                              010 |                               10
+                     TWO |                              100 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_sync_clock_converter.state_reg' using encoding 'one-hot' in module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    INIT |                               00 |                               00
+                    ZERO |                               01 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_sync_clock_converter.state_reg' using encoding 'sequential' in module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    INIT |                               00 |                               00
+                    ZERO |                               01 |                               10
+                     TWO |                               10 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_sync_clock_converter.state_reg' using encoding 'sequential' in module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    INIT |                               00 |                               00
+                    ZERO |                               01 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_sync_clock_converter.state_reg' using encoding 'sequential' in module 'axi_clock_converter_v2_1_32_axic_sync_clock_converter__parameterized2'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:44 . Memory (MB): peak = 1677.719 ; gain = 799.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	              577 Bit    Registers := 2     
+	              516 Bit    Registers := 2     
+	               62 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 29    
++---Muxes : 
+	   2 Input  577 Bit        Muxes := 1     
+	   2 Input  516 Bit        Muxes := 1     
+	   6 Input    3 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 19    
+	   3 Input    2 Bit        Muxes := 4     
+	   4 Input    2 Bit        Muxes := 4     
+	   9 Input    2 Bit        Muxes := 2     
+	   6 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 17    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_clock_converter_v2_1_32_axi_clock_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[0] in module axi_clock_converter_v2_1_32_axi_clock_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wuser[0] in module axi_clock_converter_v2_1_32_axi_clock_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_clock_converter_v2_1_32_axi_clock_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[0] in module axi_clock_converter_v2_1_32_axi_clock_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[0] in module axi_clock_converter_v2_1_32_axi_clock_converter is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:53 . Memory (MB): peak = 1677.719 ; gain = 799.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:01:06 . Memory (MB): peak = 1677.719 ; gain = 799.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:01:08 . Memory (MB): peak = 1727.297 ; gain = 848.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:01:10 . Memory (MB): peak = 1727.297 ; gain = 848.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:01:19 . Memory (MB): peak = 1913.297 ; gain = 1034.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:01:19 . Memory (MB): peak = 1913.297 ; gain = 1034.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:01:20 . Memory (MB): peak = 1913.297 ; gain = 1034.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:01:20 . Memory (MB): peak = 1913.297 ; gain = 1034.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:01:22 . Memory (MB): peak = 1913.297 ; gain = 1034.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:01:22 . Memory (MB): peak = 1913.297 ; gain = 1034.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     6|
+|3     |LUT3 |     2|
+|4     |LUT4 |     5|
+|5     |LUT5 |   594|
+|6     |LUT6 |   541|
+|7     |FDRE |  2360|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:01:22 . Memory (MB): peak = 1913.297 ; gain = 1034.766
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:01:16 . Memory (MB): peak = 1913.297 ; gain = 939.500
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:01:23 . Memory (MB): peak = 1913.297 ; gain = 1034.766
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.080 . Memory (MB): peak = 1922.465 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1933.609 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: b190ac8d
+INFO: [Common 17-83] Releasing license: Synthesis
+37 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:01:42 . Memory (MB): peak = 1933.609 ; gain = 1551.332
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1933.609 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1_synth_1/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1, cache-ID = 2ae58a33641a5fa0
+INFO: [Coretcl 2-1174] Renamed 7 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1933.609 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/SOC_DoAn2/SOC_DoAn2/SOC_DoAn2.runs/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1_synth_1/SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1_utilization_synth.rpt -pb SOC_microblaze_riscv_0_axi_periph_imp_auto_cc_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jan  3 11:21:02 2025...

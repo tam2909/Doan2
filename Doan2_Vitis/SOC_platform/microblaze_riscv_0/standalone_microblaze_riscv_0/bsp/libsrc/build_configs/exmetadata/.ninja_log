@@ -1,0 +1,17 @@
+# ninja log v5
+1	588	0	CMakeFiles/gpio_example	489502189efbf33b
+1	588	0	xgpio_exlist.yaml	489502189efbf33b
+1	588	0	D:/Doan2_Vitis/SOC_platform/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/gpio_example	489502189efbf33b
+1	588	0	D:/Doan2_Vitis/SOC_platform/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/xgpio_exlist.yaml	489502189efbf33b
+9	598	0	CMakeFiles/tmrctr_example	91e8d2f970b176e5
+9	598	0	xtmrctr_exlist.yaml	91e8d2f970b176e5
+9	598	0	D:/Doan2_Vitis/SOC_platform/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/tmrctr_example	91e8d2f970b176e5
+9	598	0	D:/Doan2_Vitis/SOC_platform/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/xtmrctr_exlist.yaml	91e8d2f970b176e5
+16	599	0	CMakeFiles/uartlite_example	72f2149b603a644e
+16	599	0	xuartlite_exlist.yaml	72f2149b603a644e
+16	599	0	D:/Doan2_Vitis/SOC_platform/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/uartlite_example	72f2149b603a644e
+16	599	0	D:/Doan2_Vitis/SOC_platform/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/xuartlite_exlist.yaml	72f2149b603a644e
+25	627	0	CMakeFiles/intc_example	33daf7e109bf7de3
+25	627	0	xintc_exlist.yaml	33daf7e109bf7de3
+25	627	0	D:/Doan2_Vitis/SOC_platform/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/intc_example	33daf7e109bf7de3
+25	627	0	D:/Doan2_Vitis/SOC_platform/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/exmetadata/xintc_exlist.yaml	33daf7e109bf7de3
